@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@font-face {
+  font-family: "Sary";
+  src: url("https://db.onlinewebfonts.com/t/b592f44ac3f5267196b6fde929a64104.eot");
+  src: url("https://db.onlinewebfonts.com/t/b592f44ac3f5267196b6fde929a64104.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/b592f44ac3f5267196b6fde929a64104.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/b592f44ac3f5267196b6fde929a64104.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/b592f44ac3f5267196b6fde929a64104.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/b592f44ac3f5267196b6fde929a64104.svg#Sary")format("svg");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Sary"!important;
+  font-size: 18px;
 }
